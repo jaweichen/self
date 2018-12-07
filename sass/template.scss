@@ -1,0 +1,277 @@
+
+
+
+@mixin linear-gradient($colors...){
+ background-image:-webkit-linear-gradient($colors);
+ background-image:-ms-linear-gradient($colors);
+ background-image:-moz-linear-gradient($colors);
+ background-image:-o-linear-gradient($colors);
+ background-image:-webkit-gradient(linear,$colors);
+ background-image:linear-gradient($colors);
+}
+
+@mixin border-radius($radius...){
+ -webkit-border-radius:$radius;
+ -moz-border-radius:$radius;
+ -ms-border-radius:$radius;
+ border-radius:$radius;
+}
+
+$linear-area-color1:#FEC47C;
+$linear-area-color2:#7CA3FE;
+$linear-area-color3:#FD9CD5;
+
+.linear-area{
+	width:100%;
+	height:100%;
+	@include linear-gradient(left,$linear-area-color1 40%,$linear-area-color2 40%,$linear-area-color2 60%,$linear-area-color3 60%,$linear-area-color3 80%);
+	background-size:30px 100%;
+}
+
+
+$linear-button-color1:#7194F9;
+$linear-button-color2:#2C62FC;
+
+map *:focus{
+	outline:none;
+}
+
+.header_button_text{
+	text-decoration:none;
+  .linear-button{
+	width:18%;
+	height:35px;
+	@include linear-gradient(top,$linear-button-color1 ,$linear-button-color2 );
+	background-repeat:no-repeat;
+	//background-size:100% 50%;
+	line-height:35px;
+	text-align:center;
+	font-weight:bold;
+	color:#fff;
+
+	&:hover{
+			@include linear-gradient(top,#FE896D,#FD5027);		
+			color:#000;
+
+		}
+
+	
+		text-decoration:none;
+		color:#fff;
+  }
+
+}
+
+.button-style{
+	float:left;
+	//background-color:#FC3925;
+	margin-left:calc((100% - (18% * 5)) / 6);
+	@include border-radius(0px 0px 10px 10px);
+}
+
+#logo{
+	width:199px;
+	height:200px;
+	float:left;
+}
+
+#chinese_logo{
+	width:300px;
+	height:200px;
+	float:left;
+}
+
+.header_cake{
+	width:200px;
+	height:142px;
+	float:left;
+	@include border-radius(10px);
+	margin-left:calc((100% - 499px - 800px) / 5);
+	margin-top:30px;
+
+}
+
+#header_button_list{
+	clear:both;
+
+}
+
+#body{
+	width:100%;
+	height:100%;
+	background-color:#FEEFCC;
+	background-repeat:repeat;
+
+}
+
+footer{
+    text-align:center;
+
+
+    
+	div{
+		@include linear-gradient(left,$linear-area-color1 40%,$linear-area-color2 40%,$linear-area-color2 60%,$linear-area-color3 60%,$linear-area-color3 80%);
+		background-size:30px 100%;
+		line-height:50px;
+		height:50px;
+
+	}
+}
+
+.fixed-bottom {
+	position: fixed;
+	bottom: 0;
+	width:100%;
+}
+
+@media screen and (max-width:1395px){
+   .header_cake{
+   	 width:150px;
+   	 height:107px;
+   	 margin-left:2%;
+   	 margin-top:50px;
+   }
+
+
+}
+
+@media screen and (max-width:1250px){
+   .header_cake{
+   	 width:150px;
+   	 height:107px;
+   	 margin-left:2%;
+   	 margin-top:30px;
+   	 margin-bottom:20px;
+   }
+
+   #chinese_logo{
+   	width:200px;
+   	height:133px;
+
+   }
+
+   #logo{
+   	width:120px;
+   	height:121px;
+   }
+
+}
+
+@media screen and (max-width:1100px){
+	.header_cake{
+		width:130px;
+		height:92px;
+		margin-left:calc((100% - 320px - 520px) / 5);
+	}
+}
+
+@media screen and (max-width:1000px){
+	.header_cake{
+		width:100px;
+		height:71px;
+		margin-left:calc((100% - 400px - 320px) / 5);
+	}
+}
+
+@media screen and (max-width:950px){
+   
+   #chinese_logo{
+   	width:150px;
+    height:100px;
+
+   }
+
+   #logo{
+   	width:100px;
+   	height:101px;
+   }
+
+   .header_cake{
+   	margin-left:calc((100% - 250px - 400px) / 5);
+	}
+}
+
+@media screen and (max-width:800px){
+	.header_cake{
+		width:80px;
+		height:57px;
+		margin-left:calc((100% - 320px - 250px) / 5);
+
+	}
+}
+
+@media screen and (max-width:600px){
+	.header_cake{
+		width:60px;
+		height:43px;
+		margin-left:calc((100% - 240px - 250px) / 5);
+	}
+}
+
+@media screen and (max-width:510px){
+	#chinese_logo{
+       width:90px;
+       height:60px;
+       margin-top:20px;
+	}
+
+	#logo{
+		width:50px;
+		height:50px;
+		margin-top:20px;
+	}
+
+	.header_cake{
+		width:60px;
+		height:43px;
+		margin-left:calc((100% - 150px - 240px) / 5);
+	}
+}
+
+@media screen and (max-width:400px){
+
+	#chinese_logo{
+		width:90px;
+		height:60px;
+	}
+
+	#logo{
+		width:50px;
+		height:50px;
+	}
+    #small_screen{
+    	clear:both;
+    }
+
+    #small_logo{
+        margin-left:calc((100% - 140px) / 2);
+    }
+
+	.header_cake{
+		width:60px;
+		height:43px;
+		margin-left:calc((100% - 240px) / 5);
+	
+		
+	}
+
+	.header_button_text{
+      .linear-button{
+    	width:100%;
+    	float:none;
+    	@include border-radius(0px);
+    	margin:0;
+
+
+      
+    	font-size:20px;
+    	font-weight:bold;
+    	
+       }
+    }
+    
+
+   
+
+
+}

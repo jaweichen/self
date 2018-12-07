@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=1.0"/>
+
+    <link rel="icon" href="img/logo.ico"/>
+	<link rel="stylesheet" type="text/css" href="css/design.css"/>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+
+	<title>我的甜點店</title>
+	
+</head>
+<body id="body">
+	<header class="linear-area">
+            
+        <div id="small_logo">
+              <img src="img/logo.png" usemap="#logoMap" id="logo"/>
+
+              <map name="logoMap">
+                <area shape="rect" coords="4,5,376,184" href="index.html">
+              </map>
+
+              <img src="img/my_dessert_shop.png" id="chinese_logo"/>
+        </div>
+
+        <div id="small_screen">
+              <img src="img/cake1_small.jpg" class="header_cake" id="header_cake1"/>
+              <img src="img/cake2_small.jpg" class="header_cake" id="header_cake2"/>
+              <img src="img/cake3_small.jpg" class="header_cake" id="header_cake3"/>
+              <img src="img/cake4_small.jpg" class="header_cake" id="header_cake4"/>
+        </div>
+            
+
+        <div id="header_button_list">
+
+             <a class="header_button_text" href="index.html">
+              <div class="linear-button button-style">
+                 最新消息
+              </div>
+             </a>
+
+            <a class="header_button_text" href="restroom.html">
+             <div class="linear-button button-style">
+               餐廳簡介
+             </div>
+            </a>
+
+            <a class="header_button_text" href="food.html">
+             <div class="linear-button button-style">
+                特色餐點
+             </div>
+            </a>
+
+            <a class="header_button_text" href="design.html">
+             <div class="linear-button button-style">
+                文創商品
+             </div>
+            </a>
+
+            <a class="header_button_text" href="message.html">
+             <div class="linear-button button-style">
+                與我聯繫
+             </div>
+            </a>
+
+        </div>
+            
+    </header>
+ 
+ <div id="small_screen_design">
+
+         <div id="design_button_list">
+            <div class="design_button" onclick="getshow('0')">創意貓咪抱枕</div>
+            <div class="design_button" onclick="getshow('1')">招喜貓筷架</div>
+            <div class="design_button" onclick="getshow('2')">貓-陶瓷吸水杯墊</div>
+            <div class="design_button" onclick="getshow('3')">Cookies Cat手工餅乾</div>
+            <div class="design_button" onclick="getshow('4')">手繪黑貓立體馬克杯</div>
+            <div class="design_button" onclick="getshow('5')">喵在一起鑰匙圈</div>
+        </div>   
+
+    <div id="container_design">
+
+
+
+        <div class="design_shop" id="pillow">
+
+            <img src="img/design1.jpg"/>
+
+            <div class="present">
+             <h1>創意貓咪抱枕</h1>
+             <h2>售價:250元</h2>
+             <p>尺寸：約30*40公分<br/>材質：超柔短毛絨<br/>填充：100%優質PP棉</p>
+             <p>又胖又可喵 =^_^=還有一隻大尾巴，手感舒適，貓貓療癒心靈陪你可愛一下</p>
+            </div>
+
+        </div>
+
+        <div class="design_shop" id="chopstick_holder">
+            <img src="img/design2.jpg"/>
+
+            <div class="present">
+             <h1>招喜貓筷架</h1>
+             <h2>售價：40元/個 共5種款式 (含完整包裝)</h2>
+             <p>可愛點點、招喜又招財 陶瓷材質，尺寸：4*3*2.8公分</p>
+             <p>結合貓咪造型手工精製的筷架，滿滿喜氣， 永結同心，可放置筷、匙等餐具 隨身攜帶，實用又環保</p>
+            </div>
+
+        </div>
+        
+        <div class="design_shop" id="coaster">
+            <img src="img/design3.jpg"/>
+
+            <div class="present">
+             <h1>貓-陶瓷吸水杯墊</h1>
+             <h2>售價:200元</h2>
+             <p>尺寸：直徑11cm, 厚度0.7cm 材質：鶯歌陶瓷</p>
+             <p>和我一起享受悠閒的午茶時光 彷彿在花園中 優雅的喝口茶 鶯歌坯體,表面純白色,光滑,觸感舒服~ 背面附黑色止滑墊!</p>
+            </div>
+
+        </div>
+
+        <div class="design_shop" id="cookie">
+            <img src="img/design4.jpg"/>
+
+            <div class="present" >
+             <h1>Cookies Cat手工餅乾</h1>
+             <h2>售價:70元</h2>
+             <p>用心製作每一份甜點，堅持手感溫度，嚴選優質食材，每一片都充滿了我們的用心與愛心，希望這些好吃的手工餅乾能感動您的心，也希望能將這份幸福的滋味帶給你們</p>
+            </div>
+            
+        </div>
+
+        <div class="design_shop" id="mug">
+            <img src="img/design5.jpg"/>
+
+            <div class="present">
+             <h1>手繪黑貓立體馬克杯</h1>
+             <h2>售價:350元</h2>
+             <p>【產地】：台灣<br/> 【顏色】：白色 <br/> 【工藝】：手工制，1380度高溫燒制<br/> 【材質】：高白泥 <br/>【尺寸】： 高 8.5cm 口徑 10cm 容量 300ml</p>
+            </div>
+
+        </div>
+
+        <div class="design_shop" id="key_ring">
+            <img src="img/design6.jpg"/>
+
+            <div class="present">
+             <h1>喵在一起鑰匙圈</h1>
+             <h2>售價:200元</h2>
+             <p>尺寸：全長約5.3 CM 貓咪身長3.3 X 1.5 X 1 CM</p>
+             <p>戀愛中的我們，最喜歡的就是擁有情侶設計的小飾品， 我們可以拿情侶手機，穿情侶裝，戴情侶戒指， 這是一款情侶鑰匙圈，非常適合把我們圈向愛的小窩</p>
+            </div>
+        </div>
+          
+    </div>
+  </div>
+
+
+       <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+       <script type="text/javascript" src="js/design.js"></script>
+    
+    <footer class="fixed_bottom">
+      <div>我的甜點店版權所有 Copyright 2018 on Co.,Ltd.</div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/footer_position.js"></script>
+    
+</body>
+</html>

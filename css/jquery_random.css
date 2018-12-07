@@ -1,0 +1,46 @@
+#container 
+{ 
+width:560px; 
+height: 300px; 
+margin: 100px auto; 
+position: relative; 
+overflow: hidden; 
+} 
+
+#container #content 
+{ 
+list-style: none; 
+width: 10000px; 
+position: absolute; 
+left:0; 
+top:0; 
+} 
+#container #content li 
+{ 
+float:left; 
+} 
+#container #content li img 
+{ 
+border: 0; 
+} 
+
+#container #leftBtn 
+{ 
+position: absolute; 
+width:45px; 
+height: 45px; 
+top:108px; 
+left: 20px; 
+background: url(img/baseline-arrow_back_ios-24px) no-repeat 0 0; 
+cursor: pointer; 
+} 
+#container #rightBtn 
+{ 
+position: absolute; 
+width:45px; 
+height: 45px; 
+top:108px; 
+right: 20px; 
+background: url(img/baseline-arrow_forward_ios-24px) no-repeat 0 -45px; 
+cursor: pointer; 
+} 

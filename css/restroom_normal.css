@@ -1,0 +1,208 @@
+.linear-area {
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(left, #FEC47C 40%, #7CA3FE 40%, #7CA3FE 60%, #FD9CD5 60%, #FD9CD5 80%);
+  background-image: -ms-linear-gradient(left, #FEC47C 40%, #7CA3FE 40%, #7CA3FE 60%, #FD9CD5 60%, #FD9CD5 80%);
+  background-image: -moz-linear-gradient(left, #FEC47C 40%, #7CA3FE 40%, #7CA3FE 60%, #FD9CD5 60%, #FD9CD5 80%);
+  background-image: -o-linear-gradient(left, #FEC47C 40%, #7CA3FE 40%, #7CA3FE 60%, #FD9CD5 60%, #FD9CD5 80%);
+  background-image: -webkit-gradient(linear, left, #FEC47C 40%, #7CA3FE 40%, #7CA3FE 60%, #FD9CD5 60%, #FD9CD5 80%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #FEC47C), color-stop(40%, #7CA3FE), color-stop(60%, #7CA3FE), color-stop(60%, #FD9CD5), color-stop(80%, #FD9CD5));
+  background-image: linear-gradient(left, #FEC47C 40%, #7CA3FE 40%, #7CA3FE 60%, #FD9CD5 60%, #FD9CD5 80%);
+  background-size: 30px 100%; }
+
+map *:focus {
+  outline: none; }
+
+.header_button_text {
+  text-decoration: none; }
+  .header_button_text .linear-button {
+    width: 18%;
+    height: 35px;
+    background-image: -webkit-linear-gradient(top, #7194F9, #2C62FC);
+    background-image: -ms-linear-gradient(top, #7194F9, #2C62FC);
+    background-image: -moz-linear-gradient(top, #7194F9, #2C62FC);
+    background-image: -o-linear-gradient(top, #7194F9, #2C62FC);
+    background-image: -webkit-gradient(linear, top, #7194F9, #2C62FC);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#7194F9), to(#2C62FC));
+    background-image: linear-gradient(top, #7194F9, #2C62FC);
+    background-repeat: no-repeat;
+    line-height: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    color: #fff; }
+    .header_button_text .linear-button:hover {
+      background-image: -webkit-linear-gradient(top, #FE896D, #FD5027);
+      background-image: -ms-linear-gradient(top, #FE896D, #FD5027);
+      background-image: -moz-linear-gradient(top, #FE896D, #FD5027);
+      background-image: -o-linear-gradient(top, #FE896D, #FD5027);
+      background-image: -webkit-gradient(linear, top, #FE896D, #FD5027);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#FE896D), to(#FD5027));
+      background-image: linear-gradient(top, #FE896D, #FD5027);
+      color: #000; }
+
+.button-style {
+  float: left;
+  margin-left: calc((100% - (18% * 5)) / 6);
+  -webkit-border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -ms-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px; }
+
+#logo {
+  width: 199px;
+  height: 200px;
+  float: left; }
+
+#chinese_logo {
+  width: 300px;
+  height: 200px;
+  float: left; }
+
+.header_cake {
+  width: 200px;
+  height: 142px;
+  float: left;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  margin-left: calc((100% - 499px - 800px) / 5);
+  margin-top: 30px; }
+
+#header_button_list {
+  clear: both; }
+
+#body {
+  width: 100%;
+  height: 100%;
+  background-color: #FEEFCC;
+  background-repeat: repeat; }
+
+footer {
+  text-align: center; }
+  footer div {
+    background-image: -webkit-linear-gradient(left, #FEC47C 40%, #7CA3FE 40%, #7CA3FE 60%, #FD9CD5 60%, #FD9CD5 80%);
+    background-image: -ms-linear-gradient(left, #FEC47C 40%, #7CA3FE 40%, #7CA3FE 60%, #FD9CD5 60%, #FD9CD5 80%);
+    background-image: -moz-linear-gradient(left, #FEC47C 40%, #7CA3FE 40%, #7CA3FE 60%, #FD9CD5 60%, #FD9CD5 80%);
+    background-image: -o-linear-gradient(left, #FEC47C 40%, #7CA3FE 40%, #7CA3FE 60%, #FD9CD5 60%, #FD9CD5 80%);
+    background-image: -webkit-gradient(linear, left, #FEC47C 40%, #7CA3FE 40%, #7CA3FE 60%, #FD9CD5 60%, #FD9CD5 80%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #FEC47C), color-stop(40%, #7CA3FE), color-stop(60%, #7CA3FE), color-stop(60%, #FD9CD5), color-stop(80%, #FD9CD5));
+    background-image: linear-gradient(left, #FEC47C 40%, #7CA3FE 40%, #7CA3FE 60%, #FD9CD5 60%, #FD9CD5 80%);
+    background-size: 30px 100%;
+    line-height: 50px;
+    height: 50px; }
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+@media screen and (max-width: 1395px) {
+  .header_cake {
+    width: 150px;
+    height: 107px;
+    margin-left: 2%;
+    margin-top: 50px; } }
+
+@media screen and (max-width: 1250px) {
+  .header_cake {
+    width: 150px;
+    height: 107px;
+    margin-left: 2%;
+    margin-top: 30px;
+    margin-bottom: 20px; }
+  #chinese_logo {
+    width: 200px;
+    height: 133px; }
+  #logo {
+    width: 120px;
+    height: 121px; } }
+
+@media screen and (max-width: 1100px) {
+  .header_cake {
+    width: 130px;
+    height: 92px;
+    margin-left: calc((100% - 320px - 520px) / 5); } }
+
+@media screen and (max-width: 1000px) {
+  .header_cake {
+    width: 100px;
+    height: 71px;
+    margin-left: calc((100% - 400px - 320px) / 5); } }
+
+@media screen and (max-width: 950px) {
+  #chinese_logo {
+    width: 150px;
+    height: 100px; }
+  #logo {
+    width: 100px;
+    height: 101px; }
+  .header_cake {
+    margin-left: calc((100% - 250px - 400px) / 5); } }
+
+@media screen and (max-width: 800px) {
+  .header_cake {
+    width: 80px;
+    height: 57px;
+    margin-left: calc((100% - 320px - 250px) / 5); } }
+
+@media screen and (max-width: 600px) {
+  .header_cake {
+    width: 60px;
+    height: 43px;
+    margin-left: calc((100% - 240px - 250px) / 5); } }
+
+@media screen and (max-width: 510px) {
+  #chinese_logo {
+    width: 90px;
+    height: 60px;
+    margin-top: 20px; }
+  #logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px; }
+  .header_cake {
+    width: 60px;
+    height: 43px;
+    margin-left: calc((100% - 150px - 240px) / 5); } }
+
+@media screen and (max-width: 400px) {
+  #chinese_logo {
+    width: 90px;
+    height: 60px; }
+  #logo {
+    width: 50px;
+    height: 50px; }
+  #small_screen {
+    clear: both; }
+  #small_logo {
+    margin-left: calc((100% - 140px) / 2); }
+  .header_cake {
+    width: 60px;
+    height: 43px;
+    margin-left: calc((100% - 240px) / 5); }
+  .header_button_text .linear-button {
+    width: 100%;
+    float: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    border-radius: 0px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold; } }
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  text-align: center; }
+  #container .restroom {
+    width: 800px;
+    height: 500px; }
+  #container .commodity {
+    width: 400px;
+    height: 250px; }

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,user-scalable=1.0"/>
+
+    <link rel="icon" href="img/logo.ico"/>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="demo/style.css" type="text/css" media="screen"/>
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+
+ 
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    
+
+	<title>我的甜點店</title>
+	
+</head>
+<body id="body">
+	<header class="linear-area">
+            
+        <div id="small_logo">
+              <img src="img/logo.png" usemap="#logoMap" id="logo"/>
+              <map name="logoMap">
+                <area shape="rect" coords="4,5,376,184" href="index.html">
+              </map>
+              <img src="img/my_dessert_shop.png" id="chinese_logo"/>
+        </div>
+
+        <div id="small_screen">
+              <img src="img/cake1_small.jpg" class="header_cake" id="header_cake1"/>
+              <img src="img/cake2_small.jpg" class="header_cake" id="header_cake2"/>
+              <img src="img/cake3_small.jpg" class="header_cake" id="header_cake3"/>
+              <img src="img/cake4_small.jpg" class="header_cake" id="header_cake4"/>
+        </div>
+            
+
+        <div id="header_button_list">
+
+             <a class="header_button_text" href="index.html">
+              <div class="linear-button button-style">
+                 最新消息
+              </div>
+             </a>
+
+            <a class="header_button_text" href="restroom.html">
+             <div class="linear-button button-style">
+               餐廳簡介
+             </div>
+            </a>
+
+            <a class="header_button_text" href="food.html">
+             <div class="linear-button button-style">
+                特色餐點
+             </div>
+            </a>
+
+            <a class="header_button_text" href="design.html">
+             <div class="linear-button button-style">
+                文創商品
+             </div>
+            </a>
+
+            <a class="header_button_text" href="message.html">
+             <div class="linear-button button-style">
+                與我聯繫
+             </div>
+            </a>
+
+        </div>
+            
+    </header>
+
+
+
+
+<div id="container_index">
+ <div id="wrapper">
+  <div class="slider-wrapper theme-default">
+    <div id="slider" class="nivoSlider"> 
+     <img src="img/thenew1.jpg" data-thumb="img/thenew1.jpg" alt="cake" /> 
+    
+     <img src="img/thenew2.jpg" data-thumb="img/thenew2.jpg" alt="cake" />
+     
+     <img src="img/thenew3.jpg" data-thumb="img/thenew.jpg" alt="cake" data-transition="slideInLeft" /> 
+ 
+   </div>
+
+
+  </div>
+ </div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script type="text/javascript" src="jquery.nivo.slider.js"></script> 
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script> 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+</script>
+<script type="text/javascript" src="js/tree_view.js"></script>
+<div id="new_center">
+
+ <div id="news">
+    <p class="new_message">最新消息</p>
+    <ul class="news_tree">
+        <li class="tree_li1" onclick="tree_number('2')">
+
+            <div class="li_list">
+             <div id="add2">
+                <img src="img/add.png">
+            </div>
+
+             <p>活動舉辦中</p>
+            </div>
+        </li>
+            <li class="tree_li2" >
+              <ul>
+                <li>一周年周年慶</li>
+                <li>買新鮮水果派送蛋糕</li>
+              </ul>
+           </li>
+
+       
+        <li class="tree_li3" onclick="tree_number('4')">
+            <div class="li_list">
+                <div id="add4">
+                    <img src="img/add.png" id="add4"/>
+                </div>
+
+                <p>新品上市</p>
+            </div>
+        </li>
+         <li class="tree_li4">
+          <ul>
+              <li>鮮奶油草莓蛋糕新上市</li>
+          </ul>
+         </li>
+
+    </ul>
+ </div>
+</div>
+
+<div id="fix_footer"></div>
+
+<footer class="fixed_bottom hide_footer">
+  <div>我的甜點店版權所有 Copyright 2018 on Co.,Ltd.</div>
+</footer>
+
+
+
+
+<script type="text/javascript" src="js/footer_position.js"></script>
+  
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+@import 'template';
+
+#container_message{
+  form{
+  	line-height:50px;
+
+  	input[type="submit"]{
+  		margin-left:20px;
+  		background-color:#3B79FE;
+  		color:#fff;
+  		font-weight:bold;
+  		width:10%;
+  		height:30px;
+  		border:none;
+  		//line-height:30px;
+  	}
+
+  	fieldset{
+		//border:1px solid black;
+		@include border-radius(10px);
+		margin:50px 10px 0px 10px;
+		background-color:rgba(255,255,255,.5);
+        
+
+		legend{
+			margin-left:20px;
+			@include linear-gradient(20deg,#ADFB7C,#86FE3B);
+			line-height:30px;
+			height:30px;
+			font-weight:bold;
+			width:30%;
+
+		}
+
+		label{
+			margin-left:20px;
+		}
+
+		textarea{
+			margin-left:20px;
+			margin-top:10px;
+			width:400px;
+			height:200px;
+		}
+	}
+
+  }	
+
+
+}
+
+#fixed_footer{
+	padding-bottom:600px;
+	display:none;
+}
+
+
+@media screen and (max-width:500px){
+	#container_message{
+  form{
+    input[type="submit"]{
+
+  		width:30%;
+  		height:30px;
+  		border:none;
+  		//line-height:30px;
+  	}
+  	fieldset{
+
+		textarea{
+			margin-left:20px;
+			margin-top:10px;
+			width:300px;
+			height:150px;
+		}
+	}
+
+  }	
+
+
+}
+}
+
+

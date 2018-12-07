@@ -1,0 +1,11 @@
+.linear-area {
+  width: 100%;
+  height: 300px;
+  background-image: -webkit-linear-gradient(left, #FEC47C 30%, #7CA3FE 30%, #7CA3FE 50%, #FD9CD5 50%, #FD9CD5 70%);
+  background-image: -ms-linear-gradient(left, #FEC47C 30%, #7CA3FE 30%, #7CA3FE 50%, #FD9CD5 50%, #FD9CD5 70%);
+  background-image: -moz-linear-gradient(left, #FEC47C 30%, #7CA3FE 30%, #7CA3FE 50%, #FD9CD5 50%, #FD9CD5 70%);
+  background-image: -o-linear-gradient(left, #FEC47C 30%, #7CA3FE 30%, #7CA3FE 50%, #FD9CD5 50%, #FD9CD5 70%);
+  background-image: -webkit-gradient(linear, left, #FEC47C 30%, #7CA3FE 30%, #7CA3FE 50%, #FD9CD5 50%, #FD9CD5 70%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #FEC47C), color-stop(30%, #7CA3FE), color-stop(50%, #7CA3FE), color-stop(50%, #FD9CD5), color-stop(70%, #FD9CD5));
+  background-image: linear-gradient(left, #FEC47C 30%, #7CA3FE 30%, #7CA3FE 50%, #FD9CD5 50%, #FD9CD5 70%);
+  background-size: 50px 100%; }
